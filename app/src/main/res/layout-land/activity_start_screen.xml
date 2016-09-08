@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#97aac5" >
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:text="TIMETABLE"
+            android:id="@+id/timetableButton"
+            android:textSize="30dp"
+            android:background="#69d894"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/timerButton" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:text="EXAMS"
+            android:id="@+id/examButton"
+            android:textSize="30dp"
+            android:background="#d8a984"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/timetableButton"
+            android:layout_above="@+id/timerButton" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="HOMEWORK"
+            android:id="@+id/homeworkButton"
+            android:textSize="30dp"
+            android:background="#a2d2d8"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/timerButton"
+            android:layout_below="@+id/timetableButton" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:text="TIMER"
+            android:id="@+id/timerButton"
+            android:textSize="30dp"
+            android:background="#c4acd8"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

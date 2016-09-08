@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="darrengillespie.coursework" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".StartScreen"
+            android:label="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Timetable"
+            android:label=""
+            android:parentActivityName=".StartScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="darrengillespie.coursework.StartScreen" />
+        </activity>
+        <activity
+            android:name=".Exam"
+            android:label=""
+            android:parentActivityName=".StartScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="darrengillespie.coursework.StartScreen" />
+        </activity>
+        <activity
+            android:name=".Homework"
+            android:label=""
+            android:parentActivityName=".StartScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="darrengillespie.coursework.StartScreen" />
+        </activity>
+        <activity
+            android:name=".Timer"
+            android:label=""
+            android:parentActivityName=".StartScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="darrengillespie.coursework.StartScreen" />
+        </activity>
+        <activity
+            android:name=".AddExam"
+            android:label=""
+            android:parentActivityName=".Exam" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="darrengillespie.coursework.Exam" />
+        </activity>
+        <activity
+            android:name=".RemoveExam"
+            android:label=""
+            android:parentActivityName=".Exam" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="darrengillespie.coursework.Exam" />
+        </activity>
+    </application>
+
+</manifest>

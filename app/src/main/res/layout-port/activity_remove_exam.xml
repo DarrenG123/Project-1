@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.11">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXAM NAME:"
+            android:id="@+id/examNameLabel"
+            android:textSize="20dp"
+            android:textColor="#010101" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/examNameText" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="Remove Exam"
+        android:id="@+id/removeExamButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02" />
+</LinearLayout>

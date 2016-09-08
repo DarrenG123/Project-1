@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="darrengillespie.coursework.Timetable">
+
+    <item android:id="@+id/item1"
+        android:title="Add"/>
+    <item android:id="@+id/item2"
+        android:title="Edit"/>
+    <item android:id="@+id/item3"
+        android:title="Remove"/>
+
+
+</menu>
